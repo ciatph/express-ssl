@@ -27,4 +27,5 @@
 
 ## References
 
-[[1]](https://trello.com/c/hnMyP9pp) - openssl certs for express notes
+[[1]](https://trello.com/c/hnMyP9pp) - openssl certs for express notes  
+[[2]](https://gist.github.com/ciatph/9834a92dfc64c6077ed654ed20b6da77) - openssl create certificate gist
