@@ -21,5 +21,5 @@
 `npm run start`
 
 4. Load the website.
-   - http version: [http://localhost:3000](http://localhost:3000)
-   - https version: 
+   - HTTP version: [http://localhost:3000](http://localhost:3000)
+   - HTTPS version: [https://localhost:8443](https://localhost:8443)
