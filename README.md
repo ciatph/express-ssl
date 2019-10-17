@@ -24,7 +24,7 @@
    - HTTP version: [http://localhost:3000](http://localhost:3000)
    - HTTPS version: [https://localhost:8443](https://localhost:8443)
 
-5. (Optional) Load from a valid, secure SSL connection. For Chrome browsers only on Windows OS.  
+5. (Optional) Load from a valid, secure SSL connection. Only for Chrome browsers running on Windows OS.  
 
 	- Open the Windows **hosts** file from  
 `C:\Windows\System32\drivers\etc` (hosts). Add the following lines:  
