@@ -24,6 +24,26 @@
    - HTTP version: [http://localhost:3000](http://localhost:3000)
    - HTTPS version: [https://localhost:8443](https://localhost:8443)
 
+5. (Optional) Load from a valid, secure SSL connection. For Chrome browsers only on Windows OS.  
+
+	- Open the Windows **hosts** file from  
+`C:\Windows\System32\drivers\etc` (hosts). Add the following lines:  
+
+			127.0.0.1 localhost.com
+			127.0.0.1 localhost
+
+	- Use the self-signed certificates here on express's `index.js` for SSL.
+
+	- Load the localhost website:  
+`https://localhost:8443`
+
+	- Export and download the untrusted certificate. 
+
+	- Register the exported self-signed certificate from previous step as a CA trusted Certificate Authority in the chrome/windows certificates store. See [[1]](https://trello.com/c/hnMyP9pp),  [[2]](https://stackoverflow.com/questions/21397809/create-a-trusted-self-signed-ssl-cert-for-localhost-for-use-with-express-node) for more reference.
+
+	- Close all open Chrome browsers and reload  
+`https://localhost:8443`
+
 
 ## References
 
