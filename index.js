@@ -7,8 +7,8 @@ const fs = require('fs')
 const app = express()
 
 // ssl certs
-const privateKey = fs.readFileSync('sslcerts/server.key', 'utf8')
-const certificate = fs.readFileSync('sslcerts/server.cert', 'utf8')
+const privateKey = fs.readFileSync('cert/server.key', 'utf8')
+const certificate = fs.readFileSync('cert/server.cert', 'utf8')
 const credentials = {
   key: privateKey,
   cert: certificate
