@@ -23,3 +23,8 @@
 4. Load the website.
    - HTTP version: [http://localhost:3000](http://localhost:3000)
    - HTTPS version: [https://localhost:8443](https://localhost:8443)
+
+
+## References
+
+[[1]](https://trello.com/c/hnMyP9pp) - openssl certs for express notes
